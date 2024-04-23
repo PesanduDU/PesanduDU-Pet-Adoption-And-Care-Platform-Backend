@@ -10,14 +10,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class User {
+public class Product {
 
     @Id
-    private String id;
-    private String firstName;
-    private String lastName;
-    private String email;
-    private String password;
-    private String address;
-    private String mobileNum;
+    private int id;
+    private String name;
+    private String price;
+    private String description;
 }
