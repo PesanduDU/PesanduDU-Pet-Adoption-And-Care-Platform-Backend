@@ -17,6 +17,8 @@ public class PetDTO {
     private int age;
     private String color;
     private String description;
+    private String latitude;
+    private  String longitude;
     private String ownerName;
     private String ownerMobileNumber;
 }

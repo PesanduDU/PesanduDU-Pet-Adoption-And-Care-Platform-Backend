@@ -6,6 +6,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.text.DecimalFormat;
+
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
@@ -21,6 +23,8 @@ public class Pet {
     private int age;
     private String color;
     private String description;
+    private String latitude;
+    private  String longitude;
     private String ownerName;
     private String ownerMobileNumber;
 
